@@ -1,0 +1,1 @@
+This is TheOdinProject's first project stored on Github. Looking forward to what is to come.
