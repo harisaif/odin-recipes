@@ -1,0 +1,9 @@
+#title{
+    background-color: aquamarine;
+}
+
+
+.ancestor .contents {
+    /* some declarations */
+    color: red;
+  }
