@@ -1,9 +1,49 @@
-#title{
-    background-color: aquamarine;
+.container{
+    padding: 0 50px;
+    background-color:#1F2937;
+
 }
 
+.nav{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
 
-.ancestor .contents {
-    /* some declarations */
-    color: red;
-  }
+.links{
+    display: flex;
+    justify-content: space-between;
+}
+.links p{
+    padding: 10px;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    border: 1px solid red;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.tag{
+    flex: 1;
+    padding-right: 90px;
+}
+.tag button{
+    background-color: rgb(67, 67, 209);
+    color: white;
+    padding: 5px 25px;
+    border-radius: 12px;
+}
+
+.image{
+    flex: 1;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    
+}
