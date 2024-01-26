@@ -1,6 +1,11 @@
+/* .page{
+    width: 80%;
+    margin: auto;
+} */
 .container{
     padding: 0 50px;
     background-color:#1F2937;
+    /* width: 80%; */
 
 }
 
@@ -8,6 +13,10 @@
     display: flex;
     justify-content: space-between;
     color: white;
+}
+.nav h2{
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .links{
@@ -22,28 +31,102 @@
     display: flex;
     justify-content: space-between;
     color: white;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-top: 50px;
     margin-bottom: 50px;
-
+    padding-bottom: 100px;
 }
 .tag{
     flex: 1;
     padding-right: 90px;
 }
-.tag button{
-    background-color: rgb(67, 67, 209);
+.tag h1{
+    font-size: 48px;
+    color: #F9FAF8;
+}
+.tag image{
+    font-size: 18px;
+    color: #E5e7eb;
+
+}
+button{
+    background-color: #3882F6;
     color: white;
     padding: 5px 25px;
     border-radius: 12px;
+    border: none;
 }
 
 .image{
     flex: 1;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: gray;
     
+}
+
+.services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+}
+
+.offering{
+    display: flex;
+}
+.one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.one p{
+    text-align: center;
+}
+.img{
+    border: 2px solid red;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    margin-bottom: -10px;
+}
+.review{
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    
+}
+.review p{
+    padding: 90px 0;
+    width: 80%;
+    text-align: justify;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.call{
+    background-color: #3882f6;
+    color: white;
+    padding: 10px 100px;
+    width: 50%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.cta{
+    font-weight: bold;
+    font-size: larger;
+}
+#btn{
+ border: 1px solid white;  
+
+  
 }
